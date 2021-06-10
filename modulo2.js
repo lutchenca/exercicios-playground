@@ -45,3 +45,5 @@ if (linguagem === "javascript") {
 } else {
     console.log('Vou aprender mais pra frente')
 }
+
+//arrays
