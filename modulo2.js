@@ -47,3 +47,14 @@ if (linguagem === "javascript") {
 }
 
 //arrays
+let alunos = ["João", "Pedro", "Jorge", "Francisco"]
+
+let indiceJoao = alunos.indexOf("João");
+let indiceFrancisco = alunos.indexOf("Francisco");
+
+// método de strings
+function dominio(parametro) {
+    return "http://" + parametro
+}
+
+//
