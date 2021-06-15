@@ -1,11 +1,11 @@
 //modulo 2 - introducao ao node 
 
-// 1 - importação de módulos
+// importação de módulos
 const moduloNativo = require('http');
 const moduloInstalado = require('axios');
 const moduloProprio = require('./minhaFuncao');
 
-//2 cachorro Scooby
+// cachorro Scooby
 let cachorro = {
     nome: 'Scooby',
     idade: 7,
@@ -15,22 +15,22 @@ let cachorro = {
 module.exports = cachorro;
 
 
-//Variaveis
+// Variaveis
 var exemplo = function () {
     return 'Oi, eu sou uma função expressa';
 }
 
-//IDADE_MINIMA e MAXIMA
+// IDADE_MINIMA e MAXIMA
 const IDADE_MINIMA = 18;
 const IDADE_MAXIMA = 99;
 
-//declaracao de variaveis
+// Declaracao de variaveis
 let verdadeiro = true;
 let nada = null;
 let texto = "texto";
 let numero = 10;
 
-//condicionais
+// Condicionais
 let dado = true;
 if (dado === true) {
     console.log('É verdadeiro!')
@@ -57,4 +57,67 @@ function dominio(parametro) {
     return "http://" + parametro
 }
 
-//
+// Arrow functions
+/* dado no console: 
+function cincoNumeros() {
+    return [1,2,3,4,5];
+}
+
+function multiplicarPorDois() {
+  return 123 * 2 ;
+}
+
+function mostrarNome() {
+  return "Meu nome é Ryan Dahl";
+}
+resposta a seguir
+*/
+let cincoNumeros = () => [1,2,3,4,5];
+
+let multiplicarPorDois = numero => 123 * 2;
+
+let mostrarNome = () => "Meu nome é Ryan Dahl";
+
+// switch - tenho aulas? 
+let dia = "sabado";
+
+function fimDeSemana(dia){
+	switch (dia) {
+        case 'segunda':
+            console.log("você tem aulas!");
+            break;
+        case 'quarta':
+            console.log("você tem aulas!");
+            break;
+        case 'sexta':
+            console.log("você tem aulas!");
+            break;
+        default:
+            console.log("você não tem aulas");
+    }
+}
+
+fimDeSemana(dia)
+
+//chegou o fim de semana
+let dia = 'segunda-feira'
+
+function fimDeSemana(dia) {	
+	switch (dia) {
+        case 'sexta-feira':
+            console.log('Bom fim de semana!');
+            break;
+	    case 'segunda-feira':
+    	console.log('Boa semana!');
+            break;
+	 default:
+    	console.log('Bom dia!');
+	}
+}
+
+//ciclos(for) - papagaio 
+function papagaio(texto) {
+    for (let i = 0; i < 5; i++) {
+        console.log(texto);
+    }
+}

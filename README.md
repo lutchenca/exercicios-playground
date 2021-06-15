@@ -2,7 +2,7 @@
 
 Exercícios feitos pela plataforma Playground durante o curso de **Full Stack da Digital House**. 
 
-### Módulos - Conteúdo programático 
+### Módulos - Conteúdo programático do curso
 -   1 - Introdução
 -   2 - Introdução a Node
 -   3    - Metodologias de Desenvolvimento
@@ -13,6 +13,15 @@ Exercícios feitos pela plataforma Playground durante o curso de **Full Stack da
 -   8    - API
 -   9    - JavaScript front
 -   10   - React 
+
+### Objetivo:
+Existem diversas formas de se chegar a mesma solução quando falamos de desenvolvimento web. O objetivo desse repositório é estimular os outros alunos do curso a trocarmos ideias e compartilharmos a maneira como estamos estudando e aprendendo. 
+
+### Como usar o repositório
+Você pode: 
+- dar um git clone e analisar o código diretamente no seu computador;
+- abrir as pastar aqui no repositório remoto;
+- dar um fork e me mostrar como você está fazendo os seus próprios exercícios!
 
 
 :smiley:
