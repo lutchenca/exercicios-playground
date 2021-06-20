@@ -4,6 +4,7 @@
 const moduloNativo = require('http');
 const moduloInstalado = require('axios');
 const moduloProprio = require('./minhaFuncao');
+const { callbackify } = require('util');
 
 // cachorro Scooby
 let cachorro = {
@@ -120,4 +121,42 @@ function papagaio(texto) {
     for (let i = 0; i < 5; i++) {
         console.log(texto);
     }
+}
+
+//callbacks
+//dobro, triplo e aplicar
+function dobro(number){
+    return number * 2;
+}
+function triplo(number){
+    return number * 3;
+}
+function aplicar(valor, callback){
+    return callback(valor);
+}
+
+//calculadora
+function somar(n1, n2){
+    return n1 + n2;
+}
+function subtrair(n1, n2){
+    return n1 - n2;
+}
+function multiplicar(n1, n2){
+    return n1 * n2;
+}
+function dividir(n1, n2){
+    return n1 / n2;
+}
+function calculadora(valor1, valor2, callback){
+    return callback(valor1, valor2);
+}
+
+//adicionarHTTP
+function adicionarHttp(url) {
+    return 
+}
+
+function processar(__,__){
+    
 }

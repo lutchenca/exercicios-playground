@@ -20,8 +20,9 @@ Existem diversas formas de se chegar a mesma solução quando falamos de desenvo
 ### Como usar o repositório
 Você pode: 
 - dar um git clone e analisar o código diretamente no seu computador;
-- abrir as pastar aqui no repositório remoto;
+- abrir as pastas aqui no repositório remoto e analisar o código;
 - dar um fork e me mostrar como você está fazendo os seus próprios exercícios!
+- sinta-se a vontade para mandar mensagem e entrar em contato, vamos evoluir juntos. 
 
 
 :smiley:
