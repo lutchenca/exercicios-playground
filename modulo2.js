@@ -154,9 +154,18 @@ function calculadora(valor1, valor2, callback){
 
 //adicionarHTTP
 function adicionarHttp(url) {
-    return 
+    return "http://" + url
+}
+function processar(listaUrl, callback){
+    const novoArray = []
+    for(let i = 0; i < listaUrl.length; i++){
+        const urlModificada = callback(listaUrl[i])
+
+        novoArray.push(urlModificada)
+    }
+    return novoArray
 }
 
-function processar(__,__){
-    
-}
+//metodos de array
+//filter
+let numeros = [12, 34, 22, 46, 18, 29, 44, 43, 39];
