@@ -166,6 +166,39 @@ function processar(listaUrl, callback){
     return novoArray
 }
 
-//metodos de array
+//metodos de array II
 //filter
 let numeros = [12, 34, 22, 46, 18, 29, 44, 43, 39];
+let maiores = numeros.filter(function(numero){
+    return numero > 18;
+});
+console.log(maiores);
+
+//for in for of
+//bart
+let bart = {
+    mae: "Marge",
+    pai: "Homer",
+    hobbie: "Skate",
+    corCamiseta: "Laranja"
+};
+for (let dados in bart){
+    console.log(bart[dados]);
+};
+
+//horizontal pra vertical
+let frase = "Essa semana vou no colearning";
+for (let vertical of frase){
+    console.log(vertical);
+};
+
+//Date object
+let data = new Date('February 13, 1996');
+data.setDate(13);
+data.setMonth(2);
+data.setFullYear(1996);
+console.log(data);
+
+//valores de descontrucao
+let destinosIncriveis = ['Marrocos', 'Bariloche', 'Barcelona', 'China', 'Grecia'];
+let [, bariloche, ,china] = destinosIncriveis;
